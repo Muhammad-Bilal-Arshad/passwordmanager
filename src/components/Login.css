@@ -1,0 +1,71 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Dark background */
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #1a1a1a; /* Darker background color */
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Slightly stronger box shadow */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+
+  }
+  
+  label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #00ff00;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #00ff00;
+    border-radius: 8px;
+    color: #00ff00;
+    background-color: #333;
+    font-size: 16px;
+  }
+
+  .account {
+    margin-left: 20px;
+    padding: 10px;
+    color: #00ff00;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .account:hover {
+    color: #66ff66; /* Light green on hover */
+  }
+  
+  button {
+    margin-left: 75px;
+    width: 100%;
+    padding: 12px;
+    background-color: #33cc33; /* Green */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #008000; /* Dark green on hover */
+  }
